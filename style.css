@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700;900&display=swap");
+
+:root {
+  --primary: rgba(0, 0, 0, 0.65);
+  --white: rgba(255, 255, 255, 0.85);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+ul {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  margin-right: 10px;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+li a:hover {
+  text-decoration: underline;
+}
+body {
+  color: rgb(240, 240, 240);
+  background-color: rgb(10, 10, 10);
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+main {
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  position: absolute;
+}
+header {
+  background-color: var(--primary);
+  padding: 10px 20px;
+  margin-top: 140px;
+  border: solid 1px white;
+  margin-left: 18px;
+  width: fit-content;
+}
+header h1 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 28px;
+  margin-bottom: 90px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 18px;
+  line-height: 1.8rem;
+}
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 0px 20px;
+}
+.right h2 {
+  padding: 10px 20px;
+  color: black;
+  background-color: var(--white);
+}
+.right p {
+  align-self: flex-end;
+  width: 80%;
+  text-align: end;
+  border: 1px solid white;
+  padding: 50px 20px;
+  background-color: var(--primary);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 100px;
+  padding: 0px 20px;
+}
+.left h2 {
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: white;
+  border: solid 1px white;
+}
+.left p {
+  align-self: flex-start;
+  width: 80%;
+  border: 1px solid white;
+  padding: 50px 20px;
+  background-color: var(--primary);
+}
+.technologies h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.arrow {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  color: white;
+}
+.arrow i {
+  font-size: 2.3em;
+}
+.arrow i:hover {
+  scale: 1.1;
+}
+footer {
+  margin-top: 120px;
+  padding: 20px;
+  background-color: var(--white);
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+footer i {
+  width: 32px;
+  font-size: 2em;
+  color: black;
+}
+footer i:hover {
+  scale: 1.1;
+}
+footer p {
+  margin: 10px auto;
+  width: fit-content;
+  color: black;
+}
+footer p a {
+  color: black;
+  text-decoration: none;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
